@@ -18,6 +18,6 @@ exports = async function(payload, response){
 //   allowDiskUse:true,
 //   cursor:{}
 // });
-return await collection.find({"borough" : "Queens"}, JSON.parse('{}')).limit(3);
+return await collection.find({"borough" : "Queens"}, JSON.parse('{}')).limit(1);
 
 };
