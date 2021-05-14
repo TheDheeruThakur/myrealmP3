@@ -4,7 +4,9 @@ exports = async function(payload, response){
     //console.log(String(fieldName) + "test");
     //JSON.parse(fieldName.body.text());
     const {fieldName} = payload.query;
+    
     console.log("fieldName---"+fieldName);
+    console.log("fieldName1234---"+fieldName);
     // return await collection.find(fieldName, JSON.parse('{}'));
 
 
